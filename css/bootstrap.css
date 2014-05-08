@@ -12,7 +12,6 @@ html {
 }
 body {
   margin: 0;
-  background-color: #bfbfbf;
 }
 article,
 aside,
@@ -276,7 +275,7 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #333333;
-  background-color: #ffffff;
+  background-color: #bfbfbf;
 }
 input,
 button,
