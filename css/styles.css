@@ -1,7 +1,7 @@
-.header {
+.welcome {
     padding: 30px;
-    background-color: #000;
-    color: #fff;
+    /*background-color: #000;
+    color: #fff;*/
 }
 
 .about {
@@ -16,9 +16,71 @@
     font-size: 30px;
 }
 
-.greetings .social img {
+.social-icons {
     height: 60px;
     width: 60px;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.mail {
+    background-image: url("../img/icons/mail.png");
+    background-image: url("../img/icons/mail.svg"), none;
+}
+
+.mail:hover {
+    background-image: url("../img/icons/mail_hover.png");
+    background-image: url("../img/icons/mail_hover.svg"), none;
+}
+
+.skype {
+    background-image: url("../img/icons/skype.png");
+    background-image: url("../img/icons/skype.svg"), none;
+}
+
+.skype:hover {
+    background-image: url("../img/icons/skype_hover.png");
+    background-image: url("../img/icons/skype_hover.svg"), none;
+}
+
+.twitter {
+    background-image: url("../img/icons/twitter.png");
+    background-image: url("../img/icons/twitter.svg"), none;
+}
+
+.twitter:hover {
+    background-image: url("../img/icons/twitter_hover.png");
+    background-image: url("../img/icons/twitter_hover.svg"), none;
+}
+
+.linkedin {
+    background-image: url("../img/icons/linkedin.png");
+    background-image: url("../img/icons/linkedin.svg"), none;
+}
+
+.linkedin:hover {
+    background-image: url("../img/icons/linkedin_hover.png");
+    background-image: url("../img/icons/linkedin_hover.svg"), none;
+}
+
+.github {
+    background-image: url("../img/icons/github.png");
+    background-image: url("../img/icons/github.svg"), none;
+}
+
+.github:hover {
+    background-image: url("../img/icons/github_hover.png");
+    background-image: url("../img/icons/github_hover.svg"), none;
+}
+
+.stackoverflow {
+    background-image: url("../img/icons/stackoverflow.png");
+    background-image: url("../img/icons/stackoverflow.svg"), none;
+}
+
+.stackoverflow:hover {
+    background-image: url("../img/icons/stackoverflow_hover.png");
+    background-image: url("../img/icons/stackoverflow_hover.svg"), none;
 }
 
 .index {

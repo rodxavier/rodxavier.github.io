@@ -1,8 +1,33 @@
 ---
 layout: index
 ---
-
-<div class="index container-fluid">
+<div class="welcome container-fluid">
     <div class="container">
+        <div class="row">
+            <div class="about col-xs-12 col-md-6">
+                <img class="img-circle" src="{{ "/img/me.jpg" | prepend: site.baseurl }}">
+                <h1>rod xavier bondoc</h1>
+                <h4>Software Engineer</h4>
+            </div>
+            <div class="greetings col-xs-12 col-md-6">
+                <div class="message row">
+                    <div class="col-xs-12 col-md-12">
+                        <h1>Hello!</h1>
+                        <span>Don't be a stranger. Say Hi.</span>
+                    </div>
+                </div>
+                <div class="social row">
+                    <div class="col-xs-12 col-md-12">
+                        <a href="mailto:{{ site.email }}"><div class="social-icons mail"></div></a>
+                        <a href="skype:{{ site.skype_id }}?add"><div class="social-icons skype"></div></a>
+                        <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank"><div class="social-icons twitter"></div></a>
+                        
+                        <a href="https://ph.linkedin.com/in/{{ site.linkedin }}/" target="_blank"><div class="social-icons linkedin"></div></a>
+                        <a href="https://github.com/{{ site.github_username }}" target="_blank"><div class="social-icons github"></div></a>
+                        <a href="https://stackoverflow.com/users/{{ site.stackoverflow_id }}" target="_blank"><div class="social-icons stackoverflow"></div></a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>

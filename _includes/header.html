@@ -1,30 +1,8 @@
-<div class="header container-fluid">
-    <div class="container">
-        <div class="row">
-            <div class="about col-xs-12 col-md-6">
-                <img class="img-circle" src="{{ "/img/me.jpg" | prepend: site.baseurl }}">
-                <h1>rod xavier bondoc</h1>
-                <h4>Software Engineer</h4>
-            </div>
-            <div class="greetings col-xs-12 col-md-6">
-                <div class="message row">
-                    <div class="col-xs-12 col-md-12">
-                        <h1>Hello!</h1>
-                        <span>Don't be a stranger. Say Hi.</span>
-                    </div>
-                </div>
-                <div class="social row">
-                    <div class="col-xs-12 col-md-12">
-                        <a href="mailto:{{ site.email }}"><img src="{{ "/img/icons/mail.svg" | prepend: site.baseurl }}" /></a>
-                        <a href="skype:{{ site.skype_id }}?add"><img src="{{ "/img/icons/skype.svg" | prepend: site.baseurl }}" /></a>
-                        <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank"><img src="{{ "/img/icons/twitter.svg" | prepend: site.baseurl }}" /></a>
-                        
-                        <a href="https://ph.linkedin.com/in/{{ site.linkedin }}/" target="_blank"><img src="{{ "/img/icons/linkedin.svg" | prepend: site.baseurl }}" /></a>
-                        <a href="https://github.com/{{ site.github_username }}" target="_blank"><img src="{{ "/img/icons/github.svg" | prepend: site.baseurl }}" /></a>
-                        <a href="https://stackoverflow.com/users/{{ site.stackoverflow_id }}" target="_blank"><img src="{{ "/img/icons/stackoverflow.svg" | prepend: site.baseurl }}" /></a>
-                    </div>
-                </div>
-            </div>
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <a class="navbar-brand" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl }}">{{ site.domain }}</a>
         </div>
-    </div>
-</div>
+    </div><!-- /.container-fluid -->
+</nav>
