@@ -23,6 +23,10 @@
     display: inline-block;
 }
 
+span.glyphicon {
+    font-size: 30px;
+}
+
 .mail {
     background-image: url("../img/icons/mail.png");
     background-image: url("../img/icons/mail.svg"), none;
@@ -83,6 +87,7 @@
     background-image: url("../img/icons/stackoverflow_hover.svg"), none;
 }
 
-.index {
-    margin-top: 20px;
+.detail-header {    
+    color: #EBEBEB;
+    background: #333333;
 }
