@@ -1,3 +1,7 @@
+body {
+    background-color: #EBEBEB;
+}
+
 .welcome {
     padding: 30px;
     /*background-color: #000;
@@ -13,7 +17,7 @@
 }
 
 .greetings span {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .social-icons {
@@ -88,6 +92,17 @@ span.glyphicon {
 }
 
 .detail-header {    
+    color: #EBEBEB;
+    background: #333333;
+}
+
+.nav-pills > li > a {
+    color: #EBEBEB;
+    background: #333333;
+    margin-top: 3px;
+}
+
+.nav-pills > li > a:hover {
     color: #EBEBEB;
     background: #333333;
 }
