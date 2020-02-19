@@ -20,6 +20,7 @@ tag_archive_path: "/tags/#"
 # Site settings
 locale: "en-au"
 title: "{ Code Xavier }"
+description: "A personal blog of a dad programmer"
 
 # Site Author
 author:
