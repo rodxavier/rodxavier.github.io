@@ -17,6 +17,10 @@ search_full_content: true
 category_archive_path: "/categories/#"
 tag_archive_path: "/tags/#"
 
+# Site settings
+locale: "en-au"
+title: "{ Code Xavier }"
+
 # Site Author
 author:
   name: "Rod Xavier Bondoc"
