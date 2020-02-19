@@ -1,17 +1,30 @@
-# Site settings
-name: Rod Xavier Bondoc
-title: Rod Xavier
-email: hello@rodxavier.com
-twitter_username: rodxavier07
-github_username: rodxavier
-skype_id: rod.xavier.bondoc
-stackoverflow_id: 1134851/rod-xavier
-linkedin: rodxavierbondoc
-domain: rodxavier.com
-description: ""
-baseurl: ""
-url: ""
+remote_theme: "mmistakes/so-simple-theme@3.2.0"
+skin: "/assets/css/skins/dark.css"
+url: "https://rodxavier.com"
 
-# Build settings
-markdown: kramdown
-permalinks: pretty
+read_time: true
+words_per_minute: 200
+
+mathjax: true
+
+layout: home
+paginate: true
+paginate: 10
+paginate_path: /page:num/
+
+search_full_content: true
+
+category_archive_path: "/categories/#"
+tag_archive_path: "/tags/#"
+
+# Site Author
+author:
+  name: "Rod Xavier Bondoc"
+  picture:
+  email: "rod.xavier.bondoc@gmail.com"
+  twitter: "@rodxavier07"
+  links:
+    - title:
+      url:
+      icon:
+
