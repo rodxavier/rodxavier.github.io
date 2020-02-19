@@ -26,9 +26,16 @@ author:
   name: "Rod Xavier Bondoc"
   picture:
   email: "rod.xavier.bondoc@gmail.com"
-  twitter: "@rodxavier07"
+  twitter: "rodxavier07"
   links:
     - title:
       url:
       icon:
 
+footer_links:
+  - title: Twitter
+    url: https://twitter.com/rodxavier07
+    icon: fab fa-twitter-square
+  - title: GitHub
+    url: https://github.com/rodxavier
+    icon: fab fa-github-square
