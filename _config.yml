@@ -24,13 +24,9 @@ description: "A personal blog of a dad programmer"
 # Site Author
 author:
   name: "Rod Xavier Bondoc"
-  picture:
+  picture: /images/rod.jpg
   email: "rod.xavier.bondoc@gmail.com"
   twitter: "rodxavier07"
-  links:
-    - title:
-      url:
-      icon:
 
 footer_links:
   - title: Twitter
@@ -39,3 +35,26 @@ footer_links:
   - title: GitHub
     url: https://github.com/rodxavier
     icon: fab fa-github-square
+  - title: Feed
+    url: atom.xml
+    icon: fas fa-rss-square
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-paginate
+
+# Front Matter Defaults
+defaults:
+  # Post defaults
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+      share: true
+
+markdown: kramdown
+feed:
+  path: atom.xml
